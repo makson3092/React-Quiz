@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Quiz/static/css/main.7b956ce3.css",
+    "main.js": "/React-Quiz/static/js/main.fb44b217.js",
+    "static/media/not-bad.png": "/React-Quiz/static/media/not-bad.c9cb7619d74d13125b3b.png",
+    "static/media/win-color.jpg": "/React-Quiz/static/media/win-color.617a44c95079f524705a.jpg",
+    "static/media/so-bad.jpg": "/React-Quiz/static/media/so-bad.a119d538348329d6b1d6.jpg",
+    "index.html": "/React-Quiz/index.html",
+    "main.7b956ce3.css.map": "/React-Quiz/static/css/main.7b956ce3.css.map",
+    "main.fb44b217.js.map": "/React-Quiz/static/js/main.fb44b217.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b956ce3.css",
+    "static/js/main.fb44b217.js"
+  ]
+}
