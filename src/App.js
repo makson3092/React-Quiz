@@ -29,7 +29,7 @@ function Result({ correct }) {
       <h2>
         Ви відповіли вірно {correct} з {quiz.length}
       </h2>
-      <a href="/">
+      <a href="/React-Quiz">
         <button>Спробувати ще раз</button>
       </a>
     </div>
