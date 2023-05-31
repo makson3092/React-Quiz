@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="wrapper">
       <Routes>
-        <Route path="/" element={<Header />} />
+        <Route path="/React-Quiz" element={<Header />} />
         <Route path="/quiz" element={<Home />} />
       </Routes>
     </div>

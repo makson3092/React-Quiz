@@ -8,7 +8,7 @@ function Result({ correct, quiz }) {
       <h2>
         Ви відповіли вірно {correct} з {quiz.length}
       </h2>
-      <Link to="/">
+      <Link to="/React-Quiz">
         <button>Спробувати ще раз</button>
       </Link>
     </div>
