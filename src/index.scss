@@ -19,21 +19,36 @@ body {
   background-color: #fff;
   position: relative;
 
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 400px;
+      height: 250px;
+    }
+  }
+  button {
+    font-weight: bold;
+    font-family: "Nunito", sans-serif;
+    border-radius: 30px;
+    border: 0;
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: darken(#ff006e, 3%);
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: darken(#f00067c7, 3%);
+  }
+
   .result {
     text-align: center;
-
-    button {
-      font-weight: bold;
-      font-family: "Nunito", sans-serif;
-      border-radius: 30px;
-      border: 0;
-      padding: 15px 30px;
-      font-size: 20px;
-      background-color: darken(#ff006e, 3%);
-      color: #fff;
-      margin-top: 20px;
-      cursor: pointer;
-    }
 
     h2 {
       margin-bottom: 0;
@@ -110,6 +125,21 @@ body {
       &:hover {
         border: 2px solid rgba(0, 0, 0, 0.3);
       }
+    }
+  }
+}
+
+@media (max-width: 394px) {
+  .wrapper {
+    width: 300px;
+    margin: 0 auto;
+    .header {
+      img {
+        width: 330px;
+      }
+    }
+    h1 {
+      font-size: 24px;
     }
   }
 }
