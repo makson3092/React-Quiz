@@ -129,6 +129,20 @@ body {
   }
 }
 
+@media (max-width: 440px) {
+  .wrapper {
+    width: 345px;
+    margin: 0 auto;
+    .header {
+      img {
+        width: 330px;
+      }
+    }
+    h1 {
+      font-size: 24px;
+    }
+  }
+}
 @media (max-width: 394px) {
   .wrapper {
     width: 300px;

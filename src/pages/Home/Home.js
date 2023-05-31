@@ -29,7 +29,6 @@ function Home() {
   const [step, setStep] = React.useState(0);
   const [correct, setCorrect] = React.useState(0);
   const question = quiz[step];
-  console.log(question);
 
   const onClickVersion = (index) => {
     setStep(step + 1);
